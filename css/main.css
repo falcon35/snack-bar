@@ -1,0 +1,201 @@
+
+body html{
+
+    height: 100%;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 100%;
+    background: url("../img/bricks.jpg");
+    background-attachment:fixed;
+}
+
+#header{
+    width:100%;
+    height: 100%;
+    background: url("../img/section.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0.5em solid red;
+    padding-bottom: 2em;
+}
+#header p{
+font-size: 3em;
+font-weight: bolder;
+color: rgb(77, 3, 3);
+margin: 1em 0;
+
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.content-box{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+#header .content a{
+
+    background-color:white;
+    font-size: 1.5em;
+    padding: 0.15em 0.5em;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity:0.6;
+    border: 0.15em solid black;
+    
+}
+
+#header .content a:hover{
+
+    background-color:red;
+    font-size: 1.5em;
+    opacity:0.6;
+    }
+    .navbar{
+        background-color: transparent!important;
+        border:0;
+    }
+    .navbar button{
+        background-color: red;
+        
+    }
+    .navbar button:hover{
+        background-color: blue;
+        
+    }
+    .navbar-brand{
+        color:black!important;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .navbar a:not(.navbar-brand){
+     color: red!important;
+     font-size: 2em;
+     font-weight: bolder;
+
+    }
+    .navbar a:hover{
+        color: black!important;
+        
+    }
+    #photos{
+        padding: 3em 2em;
+    }
+
+    .col-md-4{
+        position: relative;
+    }
+
+    #photos img{
+width: 100%;
+margin: 2em 0;
+border-radius: 2em;
+transition: transform 2s ease-in-out;
+    }
+
+    #photos img:hover{
+        opacity: 0.8;
+        transform: scale(1.15);
+            }
+
+            #photos h2{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       font-size: 3em;
+       transform: translate(-50%,-50%);
+       border-top: 0.1em solid red;
+       border-bottom: 0.1em solid red;
+       display: none;
+
+            }
+            #photos .col-md-4:hover h2{
+                display:block;
+            }
+        
+       form{
+        background-color:  black;
+        opacity: 0.6; 
+        padding:2em 1em ; 
+       }
+
+        #form h1{
+        color:red;
+
+        }
+        #form h3{
+            color:red;
+    
+            }
+            .form p{
+            color:white;
+            font-size: 2em;
+
+            }
+            .iframe{
+                padding: 2em 1em;
+                
+                
+            }
+            .form button{
+                background-color: red;
+                font-size: 2em;
+                font-weight:bold;
+                
+            }
+            .iframe iframe{
+                height: 20em;
+            }
+            .btn-block{
+                height:1.5em;
+                padding-bottom: 1.5em;
+            }
+            label {
+                color:white;
+                font-size: 1.5em;
+                
+            }
+
+          
+            footer h3{
+                color:red;
+                font-size: 1.5em;
+                
+                }
+
+                footer h2{
+                    color:red;
+                    font-size: 3em;
+                    
+                    }
+                    
+                    footer p{
+                        color:white;
+                        font-size: 2em;
+                        font-family: 'Lato', sans-serif;
+                    }
+    .scrollToTop{
+        position: fixed;
+        bottom: 80px;
+        right: 50px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #0063e8;
+        color:#fff;
+        
+    }
+    .scrollToTop:hover{
+
+        background: #e8008a ;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
